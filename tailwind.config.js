@@ -7,6 +7,13 @@ module.exports = {
   theme: {
     extend: {
 
+      colors: {
+       
+        'blurBack' :'#1B1E1F',
+        'primary': '#e44a7a',
+        'gold':'#A5761D',
+        'goldText':'#DB9618'
+      }
     },
   },
   plugins: [],
