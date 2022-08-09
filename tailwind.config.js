@@ -13,7 +13,11 @@ module.exports = {
         'primary': '#e44a7a',
         'gold':'#A5761D',
         'goldText':'#DB9618'
-      }
+      },
+      container: {
+        
+        
+      },
     },
   },
   plugins: [],

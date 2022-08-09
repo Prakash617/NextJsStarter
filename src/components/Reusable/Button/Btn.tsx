@@ -10,11 +10,10 @@ type Props = {
 const Btn = (props: Props) => {
   return (
     <>
-        <div className='bg-black inline-block mx-auto  p-2 rounded-md cursor-pointer'>
-            <span className='text-gold text-bold my-auto p-3'>{props.text}{props.icon}</span>
-            {/* <span className='text-gold text-bold my-auto p-3'><FaArrowRight className='inline-block ml-3'/></span> */}
+        <button className='bg-blue-500 inline-block mx-auto ease-in-out duration-300 text-white  p-1 px-6 rounded-full border-2 border-blue-500  cursor-pointer hover:text-green-500'>
+            <span className=' text-bold my-auto p-3'>{props.text}{props.icon}</span>
             
-        </div>
+        </button>
     </>
   )
 }
